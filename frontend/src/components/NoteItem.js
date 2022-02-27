@@ -1,6 +1,6 @@
 import { useSelctor, useSelector } from 'react-redux'
 
-function NoteItem() {
+function NoteItem({note}) {
     const { user } = useSelector((state) => state.auth)
  
   return (
